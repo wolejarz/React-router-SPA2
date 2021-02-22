@@ -1,0 +1,25 @@
+nav.main li {
+  list-style: none;
+  padding: 0 30px 30px 0;
+  background-color: #aaa;
+}
+
+nav.main a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav.main a:hover {
+  transform: translateX(20px);
+  transition: 0.3s;
+  border-left-color: red;
+  border-left-width: 10px;
+}
+
+nav.main a.active {
+  color: white;
+}
