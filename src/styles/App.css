@@ -22,9 +22,11 @@ main {
 
 aside {
   min-width: 240px;
+  
 }
 section.page {
   flex-grow: 1;
+ 
 }
 
 footer {
