@@ -10,8 +10,6 @@
 
 header {
   flex-basis: 30vh;
-  background-color: #000;
-  color: white;
 }
 main {
   display: flex;
@@ -22,17 +20,13 @@ main {
 
 aside {
   min-width: 240px;
-  background-color: wheat;
 }
 
 section.page {
-  background-color: whitesmoke;
   flex-grow: 1;
 }
 
 footer {
-  background-color: black;
-  color: white;
   padding: 10px 0;
   text-align: center;
   text-transform: uppercase;
