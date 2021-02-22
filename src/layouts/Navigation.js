@@ -6,7 +6,7 @@ const list = [
   { name: "Start", path: "/" },
   { name: "Products", path: "/products" },
   { name: "Contact", path: "/contact" },
-  { name: "Admin", path: "/admin" },
+  { name: "Admin", path: "/login" },
 ];
 export default function Navigation() {
   const navlist = list.map((element) => (

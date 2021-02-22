@@ -11,7 +11,7 @@ const LoginPage = () => {
         Password
         <input type="password" />
       </label>
-      <button>Zaloguj</button>
+      <button>Submit</button>
     </div>
   );
 };
